@@ -1,4 +1,5 @@
 import Link from "next/Link";
+import styles from"not-found.module.css";
 
 export default function NotFound(){
     return (
@@ -6,7 +7,7 @@ export default function NotFound(){
             <h2>
                 Página não encontrada! !
             </h2>
-            <Link href="/">Retornar para Home</Link>
+            <a href="/">Retornar para Home</a>
         </div>
     )
 }
